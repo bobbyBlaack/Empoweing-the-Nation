@@ -130,7 +130,7 @@
   /* Change the color of links on hover */
   .bottomNav a:hover {
     background-color: #18185C;
-    color: black;
+    color: white;
   }
   
   /* Add a color to the active/current link */
