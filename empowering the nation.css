@@ -48,7 +48,7 @@
     font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color:white;
+    color:rgb(2, 0, 0);
     font-weight: bold;
 
   }
@@ -88,4 +88,13 @@
     background-color: #f1f1f1;
     padding-left: 30px;
   }
-  
+
+  a {
+    text-decoration: none;
+    border: 0.2px solid #000;
+    color: #000;
+    background: #e6e4e4;
+    padding: 5px;
+    border-radius: 1px;
+  }
+  /*Referencing: FreeCodeCamp */
