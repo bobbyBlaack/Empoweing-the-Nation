@@ -52,6 +52,15 @@
     font-weight: bold;
 
   }
+
+  h4 {
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+  }
   
   table {
     width: 90%;
@@ -89,7 +98,7 @@
     padding-left: 30px;
   }
 
-  a {
+  button {
     text-decoration: none;
     border: 0.2px solid #000;
     color: #000;
@@ -98,3 +107,34 @@
     border-radius: 1px;
   }
   /*Referencing: FreeCodeCamp */
+
+  .bottomNav {
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+ /* Style the links inside the navigation bar */
+ .bottomNav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial;
+    width: 22%;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomNav a:hover {
+    background-color: #18185C;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .bottomNav a.active {
+    background-color: white;
+    color: white;
+  }
